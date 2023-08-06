@@ -10,7 +10,6 @@ $fruits = array("Apple", "Banana", "Orange");
 foreach ($fruits as $fruit) {
     echo $fruit . "<br>";
 }
-// token = 1/1205217631306941:0e118f3ebb02482d7ff2f5965a90a1d5
 
 // Add a new element to the array
 $fruits[] = "Grapes";
@@ -62,6 +61,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Redirect after form submission
     // https://app.asana.com/api/1.0/projects/1205217820542713
+    // token = 1/1205217631306941:0e118f3ebb02482d7ff2f5965a90a1d5
+
     header("Location: thank_you.php");
     exit();
 }
