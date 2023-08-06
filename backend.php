@@ -11,6 +11,7 @@ foreach ($fruits as $fruit) {
     echo $fruit . "<br>";
 }
 
+
 // Add a new element to the array
 $fruits[] = "Grapes";
 
